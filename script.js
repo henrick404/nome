@@ -5,35 +5,35 @@ let pausado = true;
 
 const playPause = document.getElementById("play-pause-button");
 
-// variaveis tornado of souls
+// variaveis Se Eu Não Te Amasse Tanto Assim
 const Tos = document.getElementById("Tos");
 const TosBt = document.getElementById("TosBt");
 
-// variaveis holy wars
+// variaveis 1° de julho
 const Hw = document.getElementById("Hw");
 const HwBt = document.getElementById("HwBt");
 
-// variaveis hangar 18
+// variaveis Mãe
 const H18 = document.getElementById("H18");
 const H18Bt = document.getElementById("H18Bt");
 
-// variaveis addicted to chaos
+// variaveis regina
 const AdTC = document.getElementById("AdTC");
 const AdTCBt = document.getElementById("AdTCBt");
 
-// variaveis addicted to chaos
+// variaveis reconvexo
 const Trust = document.getElementById("Trust");
 const TrustBt = document.getElementById("TrustBt");
 
-// variaveis addicted to chaos
+// variaveis primogenito
 const Sed = document.getElementById("Sed");
 const SedBt = document.getElementById("SedBt");
 
-// variaveis addicted to chaos
+// variaveis Mãe Oyá
 const Mp = document.getElementById("Mp");
 const MpBt = document.getElementById("MpBt");
 
-// variaveis addicted to chaos
+// variaveis Rose 
 const Wmr = document.getElementById("Wmr");
 const WmrBt = document.getElementById("WmrBt");
 
@@ -75,7 +75,7 @@ function pausarMusicas() { //pausa todas as musicas
 
 // ---------------------------------------------------
 
-function playToS() { //tocar tornado of souls
+function playToS() { //tocar Se Eu Não Te Amasse Tanto Assim
     if (pausado == true) {
         pausarMusicas();
         Tos.currentTime = 0;
@@ -95,7 +95,7 @@ function playToS() { //tocar tornado of souls
 
 // ---------------------------------------------------
 
-function playHw() { //tocar holy wars
+function playHw() { //1° de julho
     if (pausado == true) {
         pausarMusicas();
         Hw.currentTime = 0;
@@ -115,7 +115,7 @@ function playHw() { //tocar holy wars
 
 // ---------------------------------------------------
 
-function playH18() { //tocar holy wars
+function playH18() { //tocar Mãe
     if (pausado == true) {
         pausarMusicas();
         H18.currentTime = 0;
@@ -135,7 +135,7 @@ function playH18() { //tocar holy wars
 
 // ---------------------------------------------------
 
-function playAdTC() { //tocar addicted to chaos
+function playAdTC() { //tocar regina
     if (pausado == true) {
         pausarMusicas();
         AdTC.currentTime = 0;
@@ -155,7 +155,7 @@ function playAdTC() { //tocar addicted to chaos
 
 // ---------------------------------------------------
 
-function playTrust() { //tocar tornado of souls
+function playTrust() { //tocar reconvexo
     if (pausado == true) {
         pausarMusicas();
         Trust.currentTime = 0;
@@ -173,7 +173,7 @@ function playTrust() { //tocar tornado of souls
     }
 }
 
-function playSed() { //tocar addicted to chaos
+function playSed() { //tocar primogenito
     if (pausado == true) {
         pausarMusicas();
         Sed.currentTime = 0;
@@ -191,7 +191,7 @@ function playSed() { //tocar addicted to chaos
     }
 }
 
-function playMp() { //tocar addicted to chaos
+function playMp() { //tocar Mãe Oyá
     if (pausado == true) {
         pausarMusicas();
         Mp.currentTime = 0;
@@ -209,7 +209,7 @@ function playMp() { //tocar addicted to chaos
     }
 }
 
-function playWmr() { //tocar addicted to chaos
+function playWmr() { //tocar Rose 
     if (pausado == true) {
         pausarMusicas();
         Wmr.currentTime = 0;
