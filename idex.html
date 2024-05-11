@@ -8,6 +8,9 @@
     <title>Player De Musicas</title>
 </head>
 <body>
+    <header>
+
+        <h1 >Dia das mães</h1>
     <main>
         <!-- tornado of souls -->
         <div class="player">
@@ -17,7 +20,7 @@
             </div>
             <div class="play-download">
                 <ion-icon name="play-circle" class="play-circle" id="TosBt" onclick="playToS()"></ion-icon>
-                <a href="audios/Tornado Of Souls.mp3" download="Tornado Of Souls.mp3">
+                <a href="audio/Megadeth - Tornado Of Souls" download="sim.mp3">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
             </div>
@@ -26,7 +29,7 @@
         <div class="player">
             <div class="nome-img">
                 <img src="img/btts.png" alt="" width="75">
-                <span>Holy Wars...<br>The Punishment Due</span>
+                <span>Holy Wars<br></span>
             </div>
             <div class="play-download">
                 <ion-icon name="play-circle" class="play-circle" id="HwBt" onclick="playHw()"></ion-icon>
@@ -55,7 +58,7 @@
                 <span>Addicted To Chaos</span>
             </div>
             <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
+                <ion-icon name="play-circle" class="play-circle" id="AdTCBt" onclick="playAdTC()"></ion-icon>
                 <a href="#">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
@@ -68,7 +71,7 @@
                 <span>Trust</span>
             </div>
             <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
+                <ion-icon name="play-circle" class="play-circle" id="TrustBt" onclick="playTrust()"></ion-icon>
                 <a href="#">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
@@ -81,7 +84,7 @@
                 <span>Seek & Destroy</span>
             </div>
             <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
+                <ion-icon name="play-circle" class="play-circle" id="SedBt" onclick="playSed()"></ion-icon>
                 <a href="#">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
@@ -94,7 +97,7 @@
                 <span>Master Of Puppets</span>
             </div>
             <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
+                <ion-icon name="play-circle" class="play-circle" id="MpBt" onclick="playMp()"></ion-icon>
                 <a href="#">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
@@ -107,7 +110,7 @@
                 <span>Wherever I May Roam</span>
             </div>
             <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
+                <ion-icon name="play-circle" class="play-circle" id="WmrBt" onclick="playWmr()"></ion-icon>
                 <a href="#">
                     <ion-icon name="code-download" class="code-download"></ion-icon>
                 </a>
@@ -126,67 +129,24 @@
                 </a>
             </div>
         </div>
-        <!-- cowboys from hell -->
-        <div class="player">
-            <div class="nome-img">
-                <img src="img/cfh.png" alt="" width="75">
-                <span>Cowboys From Hell</span>
-            </div>
-            <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
-                <a href="#">
-                    <ion-icon name="code-download" class="code-download"></ion-icon>
-                </a>
-            </div>
-        </div>
-        <!-- domination -->
-        <div class="player">
-            <div class="nome-img">
-                <img src="img/cfh.png" alt="" width="75">
-                <span>Domination</span>
-            </div>
-            <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
-                <a href="#">
-                    <ion-icon name="code-download" class="code-download"></ion-icon>
-                </a>
-            </div>
-        </div>
-        <!-- holy diver -->
-        <div class="player">
-            <div class="nome-img">
-                <img src="img/hd.png" alt="" width="75">
-                <span>Holy Diver</span>
-            </div>
-            <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
-                <a href="#">
-                    <ion-icon name="code-download" class="code-download"></ion-icon>
-                </a>
-            </div>
-        </div>
-        <!-- rainbow in the dark -->
-        <div class="player">
-            <div class="nome-img">
-                <img src="img/hd.png" alt="" width="75">
-                <span>Rainbow In The Dark</span>
-            </div>
-            <div class="play-download">
-                <ion-icon name="play-circle" class="play-circle"></ion-icon>
-                <a href="#">
-                    <ion-icon name="code-download" class="code-download"></ion-icon>
-                </a>
-            </div>
-        </div>
         <!-- barra de play -->
         <div id="play-bar">
             <ion-icon name="play-circle" id="play-pause-button" onclick="pausarMusicas()"></ion-icon>
+            <ion-icon name="heart" class = "coracao"></ion-icon>
+            <ion-icon name="heart" class = "coracao2"></ion-icon>
+
         </div>
     </main>
 
-    <audio src="audios/Tornado Of Souls.mp3" id="Tos"></audio>
+    <audio src="audio/Megadeth - Tornado Of Souls.mp3" id="Tos"></audio>
     <audio src="audios/Holy Wars... The Punishment Due.mp3" id="Hw"></audio>
     <audio src="audios/Hangar 18.mp3" id="H18"></audio>
+    <audio src="audios/Addicted To Chaos.mp3" id="AdTC"></audio>
+    <audio src="audios/Trust.mp3" id="Trust"></audio>
+    <audio src="audios/Trust.mp3" id="Sed"></audio>
+    <audio src="audios/Trust.mp3" id="Mp"></audio>
+    <audio src="audios/Trust.mp3" id="Wmr"></audio>
+
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

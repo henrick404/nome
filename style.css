@@ -87,7 +87,7 @@ body {
     height: 75px;
     width: 100%;
 
-    background-color: #ff00a6;
+    background-color: #c23a92;
 }
 
 #play-pause-button {
@@ -98,4 +98,22 @@ body {
 
 #play-pause-button:active {
     transform: scale(0.9);
+}
+
+
+.coracao {
+    color: red;
+    font-size: 40pt;
+    position: absolute;
+    right: 10px;
+    bottom: 10px
+    
+}
+
+.coracao2 {
+    color: red;
+    font-size: 40pt;
+    position: absolute;
+    left: 10px;
+    bottom: 10px
 }
